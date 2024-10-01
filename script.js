@@ -1,5 +1,6 @@
 // Initial Data
 let currentQuestion = 0;
+let correctAnswers = 0;
 
 showQuestion();
 
@@ -26,4 +27,15 @@ function showQuestion() {
     } else {
         // Acabaram as questões
     }
+}
+
+function optionClickEvent(e) {
+    let clickedOption = parseInt(e.target.getAttribute('data-op'));
+
+    if(questions[currentQuestion].answer === clickedOption) {
+        correctAnswers++;
+    } 
+
+    currentQuestion++;
+    showQuestion();
 }
