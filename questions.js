@@ -1,95 +1,123 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Qual é o menor versículo da Bíblia?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Onde é o local certo de colocar o javascript?',
-        options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
-        options: [
-            'name="xxx.js"',
-            'src="xxx.js"',
-            'href="xxx.js"'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
-        options: [
-            'Verdade',
-            'Falso'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
-        options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'João 11:35',
+            'Ester 8:9',
+            'Êxodo 20:13',
+            'Jó 3:2'
         ],
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: 'Qual mulher foi tida por bêbada enquanto orava pedindo um filho ao Senhor?',
         options: [
-            'function:minhaFuncao()',
-            'function = minhaFuncao()',
-            'function minhaFuncao()'
+            'Raquel',
+            'Ana',
+            'Abigail',
+            'Sara'
         ],
-        answer: 2
+        answer: 1
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: 'O que Deus fez para interromper a construção da Torre de Babel?',
         options: [
-            'call minhaFuncao',
-            'call function minhaFuncao',
-            'minhaFuncao()'
+            'Destruiu a torre com um grande terremoto.',
+            'Confundiu a língua dos homens e os espalhou pela terra.',
+            'Fez com que a torre fosse invadida e destruída por povos inimigos.',
+            'Enviou pragas e fogo para consumir a construção de Babel.'
         ],
-        answer: 2
+        answer: 1
     },
     {
-        question: 'Como escrever uma condicional IF no Javascript?',
+        question: 'Qual dos profetas fez flutuar o ferro de um machado?',
         options: [
-            'if i = 5',
-            'if i == 5 then',
-            'if (i == 5)',
-            'if i = 5 then'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
-        options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'Eliseu',
+            'Elias',
+            'Isaías',
+            'Ezequiel'
         ],
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'Qual dessas parábolas ensina sobre o amor ao próximo?',
         options: [
-            'while (i <= 10)',
-            'while (i <= 10; i++)',
-            'while i = 1 to 10'
+            'Parábola do Joio',
+            'Parábola da rede',
+            'Parábola do bom samaritano',
+            'Parábola dos dois filhos',
+            'Parábola das 10 virgens'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Quem ressuscitou um jovem chamado Êutico?',
+        options: [
+            'Jesus',
+            'Pedro',
+            'Felipe',
+            'Paulo',
+            'João'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Qual o nome da nora de Noemi?',
+        options: [
+            'Joquebede',
+            'Isabel',
+            'Rute',
+            'Raquel',
+            'Ana'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Quais discípulos perguntaram a Jesus se podiam fazer descer fogo do céu?',
+        options: [
+            'João e Tiago',
+            'Pedro e João',
+            'Tiago e Pedro'
         ],
         answer: 0
+    },
+    {
+        question: 'Qual era o nome da serpente de bronze que Moisés tinha feito?',
+        options: [
+            'Aserá',
+            'Leviatã',
+            'Neustã'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual o livro da Bíblia que termina com um ponto de interrogação?',
+        options: [
+            'Joel',
+            'Jonas',
+            'Judas',
+            'Jó'
+        ],
+        answer: 1
+    },
+    {
+        question: 'A quem o Apóstolo Paulo chamou de médico amado?',
+        options: [
+            'Jesus',
+            'Demas',
+            'Lucas',
+            'Apolo'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual foi o profeta que surgiu depois de Malaquias?',
+        options: [
+            'Zacarias',
+            'Joel',
+            'Naum',
+            'João Batista'
+        ],
+        answer: 3
     },
 ];
